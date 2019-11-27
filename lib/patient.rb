@@ -32,6 +32,6 @@ class Patient
     self.appointments.select do |appointment|
    patient_doctors << appointment.doctor
     end
-  end
   patient_doctors
+  end
 end
