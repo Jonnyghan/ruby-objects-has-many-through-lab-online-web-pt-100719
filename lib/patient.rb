@@ -31,5 +31,6 @@ class Patient
     patient_doctors = []
     self.appointments.select do |appointment|
    patient_doctors << appointment.doctor
+    end
   end
 end
