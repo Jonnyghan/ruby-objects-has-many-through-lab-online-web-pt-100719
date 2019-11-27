@@ -26,5 +26,10 @@ class Patient
     end
     patient_appointments
   end
-   
+  
+  def doctors
+    patient_doctors = []
+    self.appointments.select do |appointment|
+   patient_doctors << appointment.doctor
+  end
 end
