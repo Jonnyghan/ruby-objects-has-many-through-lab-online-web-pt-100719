@@ -33,4 +33,5 @@ class Patient
    patient_doctors << appointment.doctor
     end
   end
+  patient_doctors
 end
